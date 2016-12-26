@@ -1,0 +1,1 @@
+/Users/alves/Documents/Projetos/Ember/emberData/node_modules/ember-data/addon/attr.js
