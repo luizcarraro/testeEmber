@@ -6,6 +6,12 @@
 
 /* jshint ignore:end */
 
+define('ember-data/adapters/application', ['exports', 'ember-data'], function (exports, _emberData) {
+  exports['default'] = _emberData['default'].JSONAPIAdapter.extend({
+    namespace: 'api',
+    host: 'http://127.0.0.1:1337'
+  });
+});
 define('ember-data/app', ['exports', 'ember', 'ember-data/resolver', 'ember-load-initializers', 'ember-data/config/environment'], function (exports, _ember, _emberDataResolver, _emberLoadInitializers, _emberDataConfigEnvironment) {
 
   var App = undefined;
@@ -242,8 +248,8 @@ define('ember-data/router', ['exports', 'ember', 'ember-data/config/environment'
 define('ember-data/routes/clientes', ['exports', 'ember'], function (exports, _ember) {
 	exports['default'] = _ember['default'].Route.extend({
 		model: function model() {
-			return this.get('store').findAll('clientes');
-			//return this.get('http://127.0.0.1:1337').findAll('clientes');
+			//return this.get('store').findAll('clientes'); https://guides.emberjs.com/v2.10.0/tutorial/ember-data/
+			return this.get('http://127.0.0.1:1337').findAll('clientes');
 		}
 	});
 });
@@ -304,7 +310,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ember-data/app")["default"].create({"name":"ember-data","version":"0.0.0+"});
+  require("ember-data/app")["default"].create({"name":"ember-data","version":"0.0.0+b5ccc47a"});
 }
 
 /* jshint ignore:end */

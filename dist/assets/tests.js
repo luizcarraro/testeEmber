@@ -1,12 +1,21 @@
 'use strict';
 
+define('ember-data/tests/adapters/application.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | adapters/application.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(false, 'adapters/application.js should pass jshint.\nadapters/application.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nadapters/application.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n2 errors');
+  });
+});
 define('ember-data/tests/app.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
   QUnit.module('JSHint | app.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'app.js should pass jshint.');
+    assert.ok(false, 'app.js should pass jshint.\napp.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\napp.js: line 2, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\napp.js: line 3, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\napp.js: line 4, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\napp.js: line 6, col 1, \'let\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\napp.js: line 13, col 3, \'object short notation\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\napp.js: line 18, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n7 errors');
   });
 });
 define('ember-data/tests/helpers/destroy-app', ['exports', 'ember'], function (exports, _ember) {
@@ -113,7 +122,7 @@ define('ember-data/tests/models/clientes.jshint.lint-test', ['exports'], functio
   QUnit.module('JSHint | models/clientes.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'models/clientes.js should pass jshint.');
+    assert.ok(false, 'models/clientes.js should pass jshint.\nmodels/clientes.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nmodels/clientes.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n2 errors');
   });
 });
 define('ember-data/tests/models/teste.jshint.lint-test', ['exports'], function (exports) {
@@ -122,7 +131,7 @@ define('ember-data/tests/models/teste.jshint.lint-test', ['exports'], function (
   QUnit.module('JSHint | models/teste.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'models/teste.js should pass jshint.');
+    assert.ok(false, 'models/teste.js should pass jshint.\nmodels/teste.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nmodels/teste.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n2 errors');
   });
 });
 define('ember-data/tests/resolver.jshint.lint-test', ['exports'], function (exports) {
@@ -131,7 +140,7 @@ define('ember-data/tests/resolver.jshint.lint-test', ['exports'], function (expo
   QUnit.module('JSHint | resolver.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'resolver.js should pass jshint.');
+    assert.ok(false, 'resolver.js should pass jshint.\nresolver.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nresolver.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n2 errors');
   });
 });
 define('ember-data/tests/router.jshint.lint-test', ['exports'], function (exports) {
@@ -140,7 +149,7 @@ define('ember-data/tests/router.jshint.lint-test', ['exports'], function (export
   QUnit.module('JSHint | router.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'router.js should pass jshint.');
+    assert.ok(false, 'router.js should pass jshint.\nrouter.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nrouter.js: line 2, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nrouter.js: line 4, col 1, \'const\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nrouter.js: line 14, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n4 errors');
   });
 });
 define('ember-data/tests/routes/clientes.jshint.lint-test', ['exports'], function (exports) {
@@ -149,7 +158,7 @@ define('ember-data/tests/routes/clientes.jshint.lint-test', ['exports'], functio
   QUnit.module('JSHint | routes/clientes.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'routes/clientes.js should pass jshint.');
+    assert.ok(false, 'routes/clientes.js should pass jshint.\nroutes/clientes.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nroutes/clientes.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\nroutes/clientes.js: line 4, col 5, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\n\n3 errors');
   });
 });
 define('ember-data/tests/routes/teste.jshint.lint-test', ['exports'], function (exports) {
@@ -158,7 +167,7 @@ define('ember-data/tests/routes/teste.jshint.lint-test', ['exports'], function (
   QUnit.module('JSHint | routes/teste.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'routes/teste.js should pass jshint.');
+    assert.ok(false, 'routes/teste.js should pass jshint.\nroutes/teste.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nroutes/teste.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\nroutes/teste.js: line 4, col 5, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\n\n3 errors');
   });
 });
 define('ember-data/tests/test-helper', ['exports', 'ember-data/tests/helpers/resolver', 'ember-qunit'], function (exports, _emberDataTestsHelpersResolver, _emberQunit) {
@@ -172,6 +181,28 @@ define('ember-data/tests/test-helper.jshint.lint-test', ['exports'], function (e
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'test-helper.js should pass jshint.');
+  });
+});
+define('ember-data/tests/unit/adapters/application-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('adapter:application', 'Unit | Adapter | application', {
+    // Specify the other units that are required for this test.
+    // needs: ['serializer:foo']
+  });
+
+  // Replace this with your real tests.
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var adapter = this.subject();
+    assert.ok(adapter);
+  });
+});
+define('ember-data/tests/unit/adapters/application-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/adapters/application-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/adapters/application-test.js should pass jshint.');
   });
 });
 define('ember-data/tests/unit/models/clientes-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
