@@ -1,0 +1,14 @@
+ <h1> Clientes </h1>
+ 
+ 
+<div class="row">
+	{{#each model as |itemon|}}
+	        {{#item-order 
+				nome= itemon.nome
+				dataNascimento= itemon.dataNascimento
+				createdAt= itemon.createdAt
+			    updatedAt= itemon.updatedAt
+	          }}
+	        {{/item-order}}
+	{{/each}}
+</div>

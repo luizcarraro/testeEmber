@@ -1,0 +1,1 @@
+/Users/alves/Documents/Projetos/Ember/testeEmber/node_modules/ember-test-helpers/lib/ember-test-helpers.js

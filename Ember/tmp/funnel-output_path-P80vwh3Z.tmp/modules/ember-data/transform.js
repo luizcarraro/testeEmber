@@ -1,0 +1,1 @@
+/Users/alves/Documents/Projetos/Ember/testeEmber/node_modules/ember-data/addon/transform.js

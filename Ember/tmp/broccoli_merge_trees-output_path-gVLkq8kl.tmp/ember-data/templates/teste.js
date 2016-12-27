@@ -1,0 +1,1 @@
+/Users/alves/Documents/Projetos/Ember/testeEmber/tmp/broccoli_merge_trees-input_base_path-z3FuU5Cc.tmp/1/ember-data/templates/teste.js

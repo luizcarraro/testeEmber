@@ -1,0 +1,1 @@
+/Users/alves/Documents/Projetos/Ember/testeEmber/tmp/funnel-input_base_path-prRdfyl9.tmp/resolver.js
