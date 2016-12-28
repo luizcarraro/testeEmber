@@ -1,0 +1,1 @@
+/Users/alves/Documents/Projetos/Ember/testeEmber/Ember/tmp/funnel-input_base_path-ii9CakaH.tmp/app-boot.js

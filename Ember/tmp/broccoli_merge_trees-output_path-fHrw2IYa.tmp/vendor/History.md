@@ -1,0 +1,1 @@
+/Users/alves/Documents/Projetos/Ember/testeEmber/Ember/node_modules/qunitjs/History.md

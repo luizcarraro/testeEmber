@@ -1,0 +1,1 @@
+{"modulePrefix":"ember-data","environment":"test","rootURL":"/","locationType":"none","EmberENV":{"FEATURES":{},"EXTEND_PROTOTYPES":{"Date":false}},"APP":{"LOG_ACTIVE_GENERATION":false,"LOG_VIEW_LOOKUPS":false,"rootElement":"#ember-testing","name":"ember-data","version":"0.0.0+f3c1ccd7"},"exportApplicationGlobal":true}

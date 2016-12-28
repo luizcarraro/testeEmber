@@ -1,0 +1,1 @@
+/Users/alves/Documents/Projetos/Ember/testeEmber/Ember/tmp/funnel-input_base_path-lPsepswg.tmp/-private/system/record-array-manager.js

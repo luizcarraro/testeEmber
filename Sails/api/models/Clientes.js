@@ -8,7 +8,12 @@
 module.exports = {
 
   attributes: {
-
+  	
+  },  
+  associations: {
+      list: "link",
+      detail: "record"
   }
+
 };
 
