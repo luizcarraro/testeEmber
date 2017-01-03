@@ -2,13 +2,19 @@
  
  
 <div class="row">
-	{{#each model as |itemon|}}
-	        {{#item-order 
-				nome= itemon.nome
-				dataNascimento= itemon.dataNascimento
-				createdAt= itemon.createdAt
-			    updatedAt= itemon.updatedAt
-	          }}
-	        {{/item-order}}
-	{{/each}}
+	<table>
+		<tr>
+			<th>Nome</th>
+			<th>Data Nascimento</th>
+			<th>Criado em</th>
+		</tr>
+		
+		{{#each model as |itemon|}}
+			<tr>
+				<td>{{itemon.nome}}</td>
+				<td>{{itemon.dataNascimento}}</td>
+				<td>{{itemon.createdAt}}</td>
+			</tr>
+		{{/each}}
+	</table>
 </div>
